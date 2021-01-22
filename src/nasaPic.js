@@ -28,7 +28,7 @@ export default function Pic(props) {
     return(
        <div>
            <Header title={title} />
-
+           <MainDivStyle>
            <DivStyle1>
             <h2>Photo of the day: {date}</h2>
             <img src={url} alt="nasa picture"/>
@@ -37,16 +37,22 @@ export default function Pic(props) {
            <DivStyle2>
              <p> {explanation} </p>
            </DivStyle2>
+           </MainDivStyle>
 
        </div>
     )
 
 }
 
+const MainDivStyle = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
+
 
 
 const DivStyle1 = styled.div`
-    /* background-color: pink; */
+    background-color: pink;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -76,13 +82,15 @@ const DivStyle2 = styled.div`
     background-color: teal;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    justify-content: center;
+    width: 44%;
 
     p {
         color: red;
-        display: flex;
-        
-
+        display: flex; 
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
     }
 
 `;
