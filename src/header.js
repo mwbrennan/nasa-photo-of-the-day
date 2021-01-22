@@ -16,6 +16,5 @@ const H1Style = styled.h1`
     color: yellow;
     background-color: lightcoral;
     padding: 2rem;
-    /* padding-bottom: .25rem; */
     margin-top: -.5rem;
     `;

@@ -58,7 +58,6 @@ const DivStyle1 = styled.div`
     width: 50%;
     height: 100%;
     margin-left: 2%;
-    // need to update this
 
     h2 {
         color: darkgray;
@@ -73,7 +72,6 @@ const DivStyle1 = styled.div`
         justify-content: center;
         border-radius: 100%;
         max-width: 100%;
-        /* width: 75%; */
     }
 
 `;
