@@ -46,12 +46,13 @@ export default function Pic(props) {
 
 
 const DivStyle1 = styled.div`
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
     margin-left: 2%;
+    // need to update this
 
     h2 {
         color: darkgray;
@@ -80,6 +81,7 @@ const DivStyle2 = styled.div`
     p {
         color: red;
         display: flex;
+        
 
     }
 
